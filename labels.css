@@ -46,14 +46,14 @@ body {
       .label .price p.saleprice {
         font-size: 1.1em;  /* default 2em; */
         line-height: 1;
-        font-weight: 400; }
+        font-weight: 600; }
     .label .price sup {
       line-height: 1;
       top: auto; }
       .label .price sup.currency {
-        font-weight: 400;
-        font-size: .85em;  /* default   font-size: .55em; */
-        margin: -2px 1px 0 0;
+        font-weight: 600;
+        font-size: .6em;  /* default   font-size: .55em; */
+        margin: 0 1px 0 0;
         vertical-align: top;
         display: inline-block; }
       .label .price sup.cents {
