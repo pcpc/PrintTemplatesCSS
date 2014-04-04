@@ -88,7 +88,7 @@ body {
     z-index: 10; }
     .label .barcode img {
       margin: 0 auto;
-      height: 0.4in; }
+      height: 0.3in; } /* default  0.4in */
       .label .barcode img.ean8 {
         display: none; }
   .label.size200x100 {
