@@ -199,7 +199,11 @@ body {
 
 /* CUSTOM */
 
+footer.price {
+  position: relative;
+}
+
 footer.price p.saleprice, footer.price p.msrp {
-  width: 50%;
-  float:right;
+  position: absolute;
+  right: 0;
 }
