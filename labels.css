@@ -44,7 +44,7 @@ body {
       .label .price p.msrp {
         font-size: .7em; }
       .label .price p.saleprice {
-        font-size: 2em;
+        font-size: 1.1em;  /* default 2em; */
         line-height: 1;
         font-weight: 400; }
     .label .price sup {
