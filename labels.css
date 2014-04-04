@@ -52,9 +52,9 @@ body {
       top: auto; }
       .label .price sup.currency {
         font-weight: 600;
-        font-size: .6em;  /* default   font-size: .55em; */
+        font-size: 1em;  /* default   font-size: .55em; */
         margin: 0 1px 0 0;
-        vertical-align: top;
+        vertical-align: baseline;  /* default vertical-align: top; */
         display: inline-block; }
       .label .price sup.cents {
         font-weight: 600;
