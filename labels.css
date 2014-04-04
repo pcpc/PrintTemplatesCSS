@@ -195,3 +195,10 @@ body {
           display: none; }
         .label.size220x50 .barcode img.ean8 {
           display: block; }
+
+
+/* CUSTOM */
+
+footer.price .saleprice, footer.price .msrp {
+  float:right;
+}
