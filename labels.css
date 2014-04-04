@@ -199,6 +199,7 @@ body {
 
 /* CUSTOM */
 
-footer.price .saleprice, footer.price .msrp {
+footer.price p.saleprice, footer.price p.msrp {
+  width: 50%;
   float:right;
 }
