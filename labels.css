@@ -205,5 +205,6 @@ footer.price {
 
 footer.price p.saleprice, footer.price p.msrp {
   position: absolute;
+  bottom: 0;
   right: 0;
 }
