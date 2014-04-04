@@ -58,10 +58,10 @@ body {
         display: inline-block; }
       .label .price sup.cents {
         font-weight: 600;
-        font-size: .75em;  /* default  font-size: .45em; */
+        font-size: 1em;  /* default  font-size: .45em; */
         margin: 0 0 0 3px; /* default   margin: -8px 0 0 3px;  */
         vertical-align: baseline; /* default  vertical-align: super; */
-        border-bottom: 1px solid #000; /* default  border-bottom: 2px solid #000;   */
+        border: none; /* default  border-bottom: 2px solid #000;   */
         }
       .label .price sup.cents::before {
         content: "."; }
