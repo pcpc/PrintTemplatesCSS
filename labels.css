@@ -59,10 +59,12 @@ body {
       .label .price sup.cents {
         font-weight: 600;
         font-size: .75em;  /* default  font-size: .45em; */
-        margin: -8px 0 0 3px;
-        vertical-align: super;
+        margin: 0 0 0 3px; /* default   margin: -8px 0 0 3px;  */
+        vertical-align: baseline; /* default  vertical-align: super; */
         border-bottom: 1px solid #000; /* default  border-bottom: 2px solid #000;   */
         }
+      .label .price sup.cents::before {
+        content: "."; }
   .label .description {
     font-size: 9pt;
     line-height: 1.2;
