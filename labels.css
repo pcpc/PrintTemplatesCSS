@@ -157,10 +157,10 @@ body {
       .label.size220x50 .price sup.currency {
         vertical-align: inherit;
         margin: 0;
-        font-size: 1em; }
+        font-size: 1.1em; } /* default 1em */
       .label.size220x50 .price sup.cents {
         margin: 0 0 0 2px;
-        font-size: .6em;
+        font-size: .9em; /* default .6em */
         vertical-align: text-top; }
     .label.size220x50 .description {
       position: absolute;
