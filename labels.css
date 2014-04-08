@@ -25,7 +25,8 @@ body {
   .label article {
     padding: .01in .08in 0 .01in;
     overflow: hidden;
-    height: 56pt; }
+    height: 56pt;
+    display: none; }
   .label h1 {
     margin: 0 0 .05in;
     text-align: center;
